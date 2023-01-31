@@ -26062,3 +26062,10 @@ main.content-no-spacing #page-content {
         animation-iteration-count: 1 !important;
     }
 }
+
+body {
+    background-image: url(../img/bg/dev.png);
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center;
+}

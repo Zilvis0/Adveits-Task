@@ -297,82 +297,82 @@
 // #3 Theme default style
 =================================================*/
 html {
-	-webkit-overflow-scrolling: touch;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size: $body_font_size;
-	scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $body_font_size;
+  scroll-behavior: smooth;
 
-	@media #{$media_xxl} {
-		font-size: $body_font_size - 2;
-	}
+  @media #{$media_xxl} {
+    font-size: $body_font_size - 2;
+  }
 
-	@media #{$media_xl} {
-		font-size: $body_font_size - 3;
-	}
+  @media #{$media_xl} {
+    font-size: $body_font_size - 3;
+  }
 
-	@media #{$media_lg} {
-		font-size: $body_font_size - 4;
-	}
+  @media #{$media_lg} {
+    font-size: $body_font_size - 4;
+  }
 
-	@media #{$media_md} {
-		font-size: $body_font_size - 5;
-	}
+  @media #{$media_md} {
+    font-size: $body_font_size - 5;
+  }
 }
 
 body {
-	background-color: $body_background_color;
-	font-size: $body_font_size;
-	min-width: 320px;
+  background-color: $body_background_color;
+  font-size: $body_font_size;
+  min-width: 320px;
 
-	@media #{$media_xxl} {
-		font-size: $body_font_size - 2;
-	}
+  @media #{$media_xxl} {
+    font-size: $body_font_size - 2;
+  }
 
-	@media #{$media_xl} {
-		font-size: $body_font_size - 3;
-	}
+  @media #{$media_xl} {
+    font-size: $body_font_size - 3;
+  }
 
-	@media #{$media_lg} {
-		font-size: $body_font_size - 4;
-	}
+  @media #{$media_lg} {
+    font-size: $body_font_size - 4;
+  }
 
-	@media #{$media_md} {
-		font-size: $body_font_size - 5;
-	}
+  @media #{$media_md} {
+    font-size: $body_font_size - 5;
+  }
 }
 
 ::selection {
-	background: $body_main_element_primary_color;
-	color: color-yiq($body_main_element_primary_color);
+  background: $body_main_element_primary_color;
+  color: color-yiq($body_main_element_primary_color);
 }
 
 .wrapper {
-	max-width: $wrapper_max_w;
-	margin: auto;
-	padding-left: $wrapper_p_l;
-	padding-right: $wrapper_p_r;
+  max-width: $wrapper_max_w;
+  margin: auto;
+  padding-left: $wrapper_p_l;
+  padding-right: $wrapper_p_r;
 
-	@media #{$media_xl} {
-		padding-left: $wrapper_p_l_xl;
-		padding-right: $wrapper_p_r_xl;
-	}
+  @media #{$media_xl} {
+    padding-left: $wrapper_p_l_xl;
+    padding-right: $wrapper_p_r_xl;
+  }
 }
 
 @media #{$media_md} {
-	#main {
-		.wrapper {
-			max-width: 450px;
-		}
+  #main {
+    .wrapper {
+      max-width: 450px;
+    }
 
-		.wrapper-normal {
-			.wrapper {
-				max-width: $wrapper_max_w;
-			}
-		}
-	}
+    .wrapper-normal {
+      .wrapper {
+        max-width: $wrapper_max_w;
+      }
+    }
+  }
 }
 
 /*=============================
@@ -588,9 +588,9 @@ body {
 //=================================================
 // DEV
 //=================================================
-//body {
-//	background-image: url(../img/bg/dev.png);
-//	background-attachment: fixed;
-//	background-repeat: repeat-y;
-//	background-position: center;
-//}
+body {
+  background-image: url(../img/bg/dev.png);
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: center;
+}
