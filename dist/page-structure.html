@@ -78,14 +78,17 @@
     <main id="main" class="site-main p-0">
       <section class="block spacer">
         <div class="wrapper">
-          <div class="content d-flex justify-content-between">
+          <div class="content d-flex justify-content-evenly spacer m-bottom-xl">
             <div
               class="page-content content-left d-flex flex-column justify-content-center"
             >
               <section id="page-title" class="block">
                 <div class="wrapper">
                   <div class="title">
-                    <h1 class="display-2">Business consulting agency</h1>
+                    <h1 class="display-2">
+                      Business<br />
+                      consulting agency
+                    </h1>
                   </div>
                 </div>
               </section>
@@ -96,15 +99,31 @@
                     companies increase better incomes and help with branding for
                     faster business growing.
                   </p>
-
-                  <hr class="spacer m-top-lg" />
+                </div>
+              </section>
+              <section id="example-block" class="block spacer p-top-lg">
+                <div class="wrapper">
+                  <button class="btn btn-link d-flex p-0">
+                    <h5 class="border-bottom spacer m-0 m-right-xs">
+                      Let's chat
+                    </h5>
+                    <img src="./assets/img/logo/right-arrow.svg" />
+                  </button>
                 </div>
               </section>
             </div>
 
-            <div class="page-content content-right d-flex align-items-start">
+            <div
+              class="page-content content-right d-flex align-items-end position-relative"
+            >
               <img
-                class="photo"
+                style="left: -104px; bottom: -102px; z-index: 1"
+                class="background-photo position-absolute"
+                src="./assets/img/bg/DotsByTheGuy.svg"
+              />
+              <img
+                style="z-index: 2"
+                class="align-self-start"
                 src="assets/img/photo/Guy.jpg"
                 alt="Employee working"
               />
