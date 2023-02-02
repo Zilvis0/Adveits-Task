@@ -1,15 +1,15 @@
-<svg width="1569" height="827" viewBox="0 0 1569 827" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="4" width="1565" height="819" fill="#14348E"/>
-<mask id="mask0_0_102" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="0" width="1565" height="819">
-<rect x="4" width="1565" height="819" fill="white"/>
+<svg width="1565" height="819" viewBox="0 0 1565 819" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="1565" height="819" fill="#14348E"/>
+<mask id="mask0_0_102" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1565" height="819">
+<rect width="1565" height="819" fill="white"/>
 </mask>
 <g mask="url(#mask0_0_102)">
-<rect x="-15" y="397" width="678" height="678" fill="url(#pattern0)"/>
-<mask id="mask1_0_102" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-15" y="397" width="678" height="678">
-<rect x="-15" y="397" width="678" height="678" fill="url(#pattern1)"/>
+<rect x="-19" y="397" width="678" height="678" fill="url(#pattern0)"/>
+<mask id="mask1_0_102" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-19" y="397" width="678" height="678">
+<rect x="-19" y="397" width="678" height="678" fill="url(#pattern1)"/>
 </mask>
 <g mask="url(#mask1_0_102)">
-<rect x="-15" y="397" width="678" height="678" fill="#0C2C83"/>
+<rect x="-19" y="397" width="678" height="678" fill="#0C2C83"/>
 </g>
 </g>
 <defs>
