@@ -326,6 +326,8 @@ body {
   background-color: $body_background_color;
   font-size: $body_font_size;
   min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
 
   @media #{$media_xxl} {
     font-size: $body_font_size - 2;
