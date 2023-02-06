@@ -2,30 +2,40 @@
 // Fonts
 //=================================================
 
-// Ubuntu-Regular
+// Montserrat-Regular
 @font-face {
-    font-family: 'Ubuntu-Regular';
-    src: url('../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.eot');
-    src: url('../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.woff2') format('woff2'),
-         url('../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.woff') format('woff'),
-         url('../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.ttf') format('truetype'),
-         url('../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff2")
+      format("woff2"),
+    url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff")
+      format("woff"),
+    url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.ttf")
+      format("truetype"),
+    url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular")
+      format("svg");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
 }
 
-// Ubuntu-Bold
+// Montserrat-Bold
 @font-face {
-    font-family: 'Ubuntu-Bold';
-    src: url('../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.eot');
-    src: url('../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.woff2') format('woff2'),
-         url('../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.woff') format('woff'),
-         url('../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.ttf') format('truetype'),
-         url('../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
-    font-style: normal;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.woff2")
+      format("woff2"),
+    url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.woff")
+      format("woff"),
+    url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.ttf")
+      format("truetype"),
+    url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.svg#Montserrat-Bold")
+      format("svg");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
 }

@@ -6271,7 +6271,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
     margin: 0;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1;
@@ -6611,7 +6611,7 @@ template {
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Ubuntu-Regular", sans-serif;
+    --font-family-sans-serif: "Montserrat-Regular", sans-serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -6621,7 +6621,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, legend {
     margin-bottom: 0;
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     line-height: 1.31;
 }
@@ -8476,7 +8476,7 @@ pre code {
     width: 100%;
     height: calc(1.31em + 1.544rem + 2px);
     padding: 0.772rem 0.94733rem;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-size: 0.895rem;
     font-weight: 400;
     line-height: 1.31;
@@ -8992,7 +8992,7 @@ textarea.form-control {
 =============================*/
 .btn, #outdated .vertical-center #buttonUpdateBrowser {
     display: inline-block;
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     color: #747474;
     text-align: center;
@@ -10501,7 +10501,7 @@ input[type="button"].btn-block {
     width: 100%;
     height: calc(1.31em + 1.544rem + 2px);
     padding: 0.772rem 1.94733rem 0.772rem 0.94733rem;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-size: 0.895rem;
     font-weight: 400;
     line-height: 1.31;
@@ -10607,7 +10607,7 @@ input[type="button"].btn-block {
     height: calc(1.31em + 1.544rem + 2px);
     padding: 0.772rem 0.94733rem;
     overflow: hidden;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-weight: 400;
     line-height: 1.31;
     color: #747474;
@@ -12862,7 +12862,7 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -12978,7 +12978,7 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -17592,18 +17592,18 @@ body {
 // #3.1 Font
 =============================*/
 @font-face {
-    font-family: 'Ubuntu-Regular';
-  src: url("../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.eot");
-  src: url("../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.ttf") format("truetype"), url("../fonts/Ubuntu/Ubuntu-Regular/Ubuntu-Regular.svg#Ubuntu-Regular") format("svg");
+    font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
   font-style: normal;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Ubuntu-Bold';
-  src: url("../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.eot");
-  src: url("../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.ttf") format("truetype"), url("../fonts/Ubuntu/Ubuntu-Bold/Ubuntu-Bold.svg#Ubuntu-Bold") format("svg");
+    font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
   font-style: normal;
   font-weight: 700;
   text-rendering: optimizeLegibility;
@@ -18017,11 +18017,48 @@ body {
 /*=============================
 // Headings
 =============================*/
-h1:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), .h1:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), h2:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), .h2:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), h3:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), .h3:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), h4:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), .h4:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), h5:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), .h5:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), h6:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), .h6:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']), legend:not([class*='-title']):not([class*='__title']):not([class*='-heading']):not([class*='__heading']):not([class*='-header']):not([class*='-t-head']) {
+h1:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+.h1:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+h2:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+.h2:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+h3:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+.h3:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+h4:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+.h4:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+h5:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+.h5:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+h6:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+.h6:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]),
+legend:not([class*="-title"]):not([class*="__title"]):not([class*="-heading"]):not(
+[class*="__heading"]):not([class*="-header"]):not([class*="-t-head"]) {
     color: #2b2b2b;
 }
 
-h1:before, .h1:before, h2:before, .h2:before, h3:before, .h3:before, h4:before, .h4:before, h5:before, .h5:before, h6:before, .h6:before, legend:before {
+h1:before,
+.h1:before,
+h2:before,
+.h2:before,
+h3:before,
+.h3:before,
+h4:before,
+.h4:before,
+h5:before,
+.h5:before,
+h6:before,
+.h6:before,
+legend:before {
     content: '';
     display: block;
     height: 0;
@@ -18029,7 +18066,19 @@ h1:before, .h1:before, h2:before, .h2:before, h3:before, .h3:before, h4:before, 
     margin-top: calc((0.75 - 1.31) * 0.5em);
 }
 
-h1:last-child:after, .h1:last-child:after, h2:last-child:after, .h2:last-child:after, h3:last-child:after, .h3:last-child:after, h4:last-child:after, .h4:last-child:after, h5:last-child:after, .h5:last-child:after, h6:last-child:after, .h6:last-child:after, legend:last-child:after {
+h1:last-child:after,
+.h1:last-child:after,
+h2:last-child:after,
+.h2:last-child:after,
+h3:last-child:after,
+.h3:last-child:after,
+h4:last-child:after,
+.h4:last-child:after,
+h5:last-child:after,
+.h5:last-child:after,
+h6:last-child:after,
+.h6:last-child:after,
+legend:last-child:after {
     content: '';
     display: block;
     height: 0;
@@ -18037,7 +18086,19 @@ h1:last-child:after, .h1:last-child:after, h2:last-child:after, .h2:last-child:a
     margin-bottom: calc((0.75 - 1.31) * 0.5em);
 }
 
-h1.after:after, .h1.after:after, h2.after:after, .h2.after:after, h3.after:after, .h3.after:after, h4.after:after, .h4.after:after, h5.after:after, .h5.after:after, h6.after:after, .h6.after:after, legend.after:after {
+h1.after:after,
+.h1.after:after,
+h2.after:after,
+.h2.after:after,
+h3.after:after,
+.h3.after:after,
+h4.after:after,
+.h4.after:after,
+h5.after:after,
+.h5.after:after,
+h6.after:after,
+.h6.after:after,
+legend.after:after {
     content: '';
     display: block;
     height: 0;
@@ -18045,7 +18106,19 @@ h1.after:after, .h1.after:after, h2.after:after, .h2.after:after, h3.after:after
     margin-bottom: calc((0.75 - 1.31) * 0.5em);
 }
 
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, legend a {
+h1 a,
+.h1 a,
+h2 a,
+.h2 a,
+h3 a,
+.h3 a,
+h4 a,
+.h4 a,
+h5 a,
+.h5 a,
+h6 a,
+.h6 a,
+legend a {
     color: #2b2b2b;
 }
 
@@ -18053,7 +18126,8 @@ h1, .h1 {
     margin-bottom: 0.688rem;
 }
 
-h1:last-child, .h1:last-child {
+h1:last-child,
+  .h1:last-child {
     margin-bottom: 0;
 }
 
@@ -18061,7 +18135,8 @@ h2, .h2 {
     margin-bottom: 0.871rem;
 }
 
-h2:last-child, .h2:last-child {
+h2:last-child,
+  .h2:last-child {
     margin-bottom: 0;
 }
 
@@ -18069,7 +18144,8 @@ h3, .h3 {
     margin-bottom: 0.971rem;
 }
 
-h3:last-child, .h3:last-child {
+h3:last-child,
+  .h3:last-child {
     margin-bottom: 0;
 }
 
@@ -18077,7 +18153,8 @@ h4, .h4 {
     margin-bottom: 1.06rem;
 }
 
-h4:last-child, .h4:last-child {
+h4:last-child,
+  .h4:last-child {
     margin-bottom: 0;
 }
 
@@ -18085,7 +18162,8 @@ h5, .h5 {
     margin-bottom: 1.113rem;
 }
 
-h5:last-child, .h5:last-child {
+h5:last-child,
+  .h5:last-child {
     margin-bottom: 0;
 }
 
@@ -18093,7 +18171,9 @@ h6, .h6, legend {
     margin-bottom: 1.139rem;
 }
 
-h6:last-child, .h6:last-child, legend:last-child {
+h6:last-child,
+  .h6:last-child,
+  legend:last-child {
     margin-bottom: 0;
 }
 
@@ -18137,11 +18217,13 @@ p.no-after:after {
     display: none !important;
 }
 
-.small, small {
+.small,
+small {
     line-height: 1.79;
 }
 
-.small:before, small:before {
+.small:before,
+  small:before {
     content: '';
     display: block;
     height: 0;
@@ -18149,7 +18231,8 @@ p.no-after:after {
     margin-top: calc((0.8 - 1.79) * 0.5em);
 }
 
-.small:last-child:after, small:last-child:after {
+.small:last-child:after,
+  small:last-child:after {
     content: '';
     display: block;
     height: 0;
@@ -18157,8 +18240,9 @@ p.no-after:after {
     margin-bottom: calc((0.65 - 1.79) * 0.5em);
 }
 
-strong, b {
-    font-family: "Ubuntu-Bold", sans-serif;
+strong,
+b {
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
 }
 
@@ -18184,7 +18268,8 @@ a:hover {
 /*=============================
 // Blockquote
 =============================*/
-blockquote, .blockquote {
+blockquote,
+.blockquote {
     border-left: 2px solid #2b2b2b;
     color: #2b2b2b;
     padding-left: 1.474rem;
@@ -18192,24 +18277,30 @@ blockquote, .blockquote {
     margin-bottom: 1.579rem;
 }
 
-blockquote:last-child, .blockquote:last-child {
+blockquote:last-child,
+  .blockquote:last-child {
     margin-bottom: 0;
 }
 
-blockquote p, .blockquote p {
-    font-family: "Ubuntu-Bold", sans-serif;
+blockquote p,
+  .blockquote p {
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
 }
 
-blockquote p:after, blockquote p:before, .blockquote p:after, .blockquote p:before {
+blockquote p:after, blockquote p:before,
+    .blockquote p:after,
+    .blockquote p:before {
     display: none;
 }
 
-blockquote p:last-child, .blockquote p:last-child {
+blockquote p:last-child,
+    .blockquote p:last-child {
     margin-bottom: 0;
 }
 
-blockquote p:last-child:after, .blockquote p:last-child:after {
+blockquote p:last-child:after,
+      .blockquote p:last-child:after {
     display: none;
 }
 
@@ -18248,13 +18339,14 @@ ul li:last-child:after {
 }
 
 ul li:before {
-    content: '\2022';
+    content: "\2022";
     color: #4550bf;
     width: 1rem;
     margin-left: -1.3rem;
 }
 
-ul ol, ul ul {
+ul ol,
+  ul ul {
     margin-top: 1.009rem;
 }
 
@@ -18289,14 +18381,15 @@ ol li:last-child:after {
 }
 
 ol li ul > li:before {
-    content: '\2022';
+    content: "\2022";
 }
 
 ol li ol > li:before {
-    content: '';
+    content: "";
 }
 
-ol ol, ol ul {
+ol ol,
+  ol ul {
     margin-top: 1.009rem;
 }
 
@@ -18313,7 +18406,7 @@ ol ol, ol ul {
 }
 
 .list-unstyled li:before, .nav li:before, .navbar-nav li:before {
-    content: '';
+    content: "";
 }
 
 .list-inline {
@@ -18325,22 +18418,32 @@ ol ol, ol ul {
 }
 
 .list-inline .list-inline-item:before {
-    content: '';
+    content: "";
 }
 
-address, dl, ol, ul, pre {
+address,
+dl,
+ol,
+ul,
+pre {
     margin-bottom: 1.579rem;
 }
 
-address:last-child, dl:last-child, ol:last-child, ul:last-child, pre:last-child {
+address:last-child,
+  dl:last-child,
+  ol:last-child,
+  ul:last-child,
+  pre:last-child {
     margin-bottom: 0;
 }
 
-address, dl {
+address,
+dl {
     line-height: 1.79;
 }
 
-address:before, dl:before {
+address:before,
+  dl:before {
     content: '';
     display: block;
     height: 0;
@@ -18348,7 +18451,8 @@ address:before, dl:before {
     margin-top: calc((0.8 - 1.79) * 0.5em);
 }
 
-address:last-child:after, dl:last-child:after {
+address:last-child:after,
+  dl:last-child:after {
     content: '';
     display: block;
     height: 0;
@@ -18364,12 +18468,12 @@ pre {
 // Text format
 =============================*/
 .regular {
-    font-family: "Ubuntu-Regular", sans-serif !important;
+    font-family: "Montserrat-Regular", sans-serif !important;
     font-weight: 400 !important;
 }
 
 .bold, .dropdown-toggle, .dropdown-submenu > .dropdown-item {
-    font-family: "Ubuntu-Bold", sans-serif !important;
+    font-family: "Montserrat-Bold", sans-serif !important;
     font-weight: 700 !important;
 }
 
@@ -18553,7 +18657,7 @@ table th, table td {
 }
 
 table th {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
 }
 
@@ -18764,7 +18868,7 @@ button:focus {
 }
 
 .dropdown-item {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
 }
 
@@ -18822,7 +18926,7 @@ button:focus {
 // Label
 =============================*/
 label {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     font-size: 0.895rem;
     line-height: 1.31;
@@ -18913,7 +19017,7 @@ input[type="email"]:focus,
 input, textarea, select {
     background-color: #ffffff;
     color: #747474;
-    font-family: "Ubuntu-Regular", sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-weight: 400;
     font-size: 0.895rem;
     line-height: 1.31;
@@ -19109,7 +19213,7 @@ form p.after:after {
 }
 
 .nav .nav-item {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
 }
 
@@ -19122,7 +19226,7 @@ form p.after:after {
 }
 
 .nav .nav-item.current-nav-item > a:not(.disabled), .nav .nav-item.active > a:not(.disabled) {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     color: #4550bf;
 }
@@ -19132,7 +19236,7 @@ form p.after:after {
 }
 
 .nav:not(.nav-pills) .nav-link {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
 }
 
@@ -22198,7 +22302,7 @@ main.content-no-spacing #page-content {
 }
 
 .widget-area .widget .widget-title, [class*='widget-container'] .widget .widget-title {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     margin-bottom: 1.113rem !important;
 }
@@ -22376,7 +22480,7 @@ main.content-no-spacing #page-content {
 }
 
 .ui #ui-content .bd-placeholder-img text {
-    font-family: "Ubuntu-Bold", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     fill: #ffffff;
 }
