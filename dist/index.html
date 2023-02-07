@@ -1,163 +1,568 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/style.min.css">
-        <title>Page name | Project name</title>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <title>Adveits | Landing page task</title>
 
-        <!-- Useful meta tags -->
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="robots" content="index, follow, noodp">
-        <meta name="googlebot" content="index, follow">
-        <meta name="google" content="notranslate">
-        <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.ico" sizes="16x16">
-    </head>
-    <body class="home">
-        <div id="outdated" class="old-browser"></div><!-- .old-browser -->
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow, noodp" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
 
-        <div class="loading">
-            <div class="wrapper h-100">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                    <div class="loading-content">
-                        <div class="logo">
-                            <img class="animated zoomin" src="assets/img/logo/logo.svg" alt="Logo">
-                        </div>
-                    </div>
-                </div>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/img/favicon/ADVEITS.ico"
+      sizes="16x16"
+    />
+  </head>
+  <body class="page">
+    <div id="outdated" class="old-browser"></div>
+    <!-- .old-browser -->
+
+    <div class="loading">
+      <div class="wrapper h-100">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="loading-content">
+            <div class="logo logo-primary">
+              <img
+                class="animated zoomin"
+                src="assets/img/logo/ADVEITS.svg"
+                alt="Logo"
+              />
             </div>
-        </div><!-- .loading -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .loading -->
 
-        <header id="header" class="site-header">
-            <div class="wrapper">
-                <div class="header-content d-flex justify-content-between">
-                    <div class="header-left align-self-center">
-                        <div class="d-flex align-items-center">
-                            <div class="header-logo">
-                                <a class="logo transform-scale-h" title="Logo" href="index.html">
-                                    <img src="assets/img/logo/logo.svg" alt="Logo">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="header-right d-flex justify-content-end">
-                        <div class="d-flex align-items-center">
-                            <div class="header-menu">
-                                <div class="menu-toggle">
-                                    <button type="button" class="btn btn-link border-0 p-0 min-w-auto" data-toggle="modal" data-target="#menu-modal"><i class="fas fa-bars"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <main id="main" class="site-main p-0">
+      <section id="hero" class="block">
+        <div class="d-flex spacer m-left-lg p-left-md">
+          <div class="d-flex justify-content-evenly spacer m-bottom-xl">
+            <div
+              class="d-flex flex-column justify-content-center spacer p-right-md"
+            >
+              <section id="page-title" class="block">
+                <div class="title">
+                  <h1 class="display-2">
+                    Business<br />
+                    consulting agency
+                  </h1>
                 </div>
+              </section>
+              <section class="block spacer p-top-lg">
+                <p class="after mb-0 text-black-50 spacer p-right-md">
+                  We are digital business consulting agency that helps companies
+                  increase better incomes and help with branding for faster
+                  business growing.
+                </p>
+              </section>
+              <section class="block spacer p-top-lg">
+                <button class="btn btn-link d-flex p-0">
+                  <h5 class="border-bottom spacer m-0">Let's chat</h5>
+                  <img src="./assets/img/logo/right-arrow.svg" />
+                </button>
+              </section>
             </div>
-        </header><!-- .site-header -->
 
-        <main id="main" class="site-main">
-            <div class="content">
-                <div class="clearfix">
-                    <section id="page-title" class="block">
-                        <div class="wrapper">
-                            <div class="title">
-                                <h1>Welcome to Codic!</h1>
-                            </div>
-                        </div>
-                    </section><!-- #page-title -->
-
-                    <section id="example-block" class="block spacer p-top-lg">
-                        <div class="wrapper">
-                            <p class="after mb-0">Codic is a fully-featured responsive Bootstrap based HTML5 starter page template. It is easy to use this starter template for any purpose - to create a design from scratch or recreate an existing project. Codic has built-in dependencies which help you a developing process.</p>
-
-                            <hr class="spacer m-top-lg">
-
-                            <div class="spacer m-top-lg">
-                                <h2>Sitemap</h2>
-
-                                <h4 class="spacer m-top-lg">Page structure</h4>
-
-                                <ul>
-                                    <li><a href="page-structure.html">Page structure</a></li>
-                                </ul>
-
-                                <h4 class="spacer m-top-lg">Templates</h4>
-
-                                <ul>
-                                    <li><a href="template-page-no-title-and-content-full-width.html">Page - No title & Content full width</a></li>
-                                    <li><a href="template-page-title-and-content.html">Page - Title & Content</a></li>
-                                    <li><a href="template-page-title-and-content-full-width.html">Page - Title & Content full width</a></li>
-                                    <li><a href="template-page-title-and-content-with-left-sidebar.html">Page - Title & Content with left sidebar</a></li>
-                                    <li><a href="template-page-title-and-content-with-right-sidebar.html">Page - Title & Content with right sidebar</a></li>
-                                </ul>
-
-                                <h4 class="spacer m-top-lg">UI</h4>
-
-                                <ul>
-                                    <li><a href="ui.html">User interface (UI)</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section><!-- #example-block -->
-                </div>
+            <div class="d-flex align-items-end position-relative">
+              <img
+                style="left: -104px; bottom: -102px; z-index: 1"
+                class="img-fluid position-absolute"
+                src="./assets/img/bg/DotsByTheGuy.svg"
+              />
+              <img
+                style="z-index: 2"
+                class="align-self-start"
+                src="assets/img/photo/Guy.jpg"
+                alt="Employee working"
+              />
             </div>
-        </main><!-- .site-main -->
+          </div>
 
-        <footer id="footer" class="site-footer">
-            <div class="wrapper">
-                <div class="footer">
-                    <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-between">
-                        <div class="align-self-center">
-                            <div class="copyright">
-                                <p>© <script>document.write( new Date().getFullYear() );</script> HTML Starter Template for Developer By <a target="_blank" href="https://www.adveits.com">Adveits</a></p>
-                            </div>
-                        </div>
-                    </div>
+          <header id="header" class="site-header spacer p-left-lg p-right-lg">
+            <div
+              class="header-content d-flex flex-column h-75 justify-content-between align-items-center"
+            >
+              <div class="header-logo">
+                <a class="logo transform-scale-h" title="Logo" href="/">
+                  <img src="assets/img/logo/ADVEITS.svg" alt="Logo" />
+                </a>
+              </div>
+
+              <button
+                class="btn btn-link border-0 p-0 min-w-auto"
+                data-toggle="modal"
+                data-target="#menu-modal"
+              >
+                <img src="./assets/img/logo/Burger menu.svg" alt="menu icon" />
+              </button>
+              <section>
+                <img
+                  class="spacer p-bottom-sm-2"
+                  src="./assets/img/logo/Group 5.svg"
+                  alt="search icon"
+                />
+                <div class="font-weight-bold spacer p-bottom-xs-2 text-dark">
+                  En
                 </div>
+                <div class="text-muted">Ru</div>
+              </section>
             </div>
-        </footer><!-- .site-footer -->
-
-        <div id="modals">
-            <div class="modal fade" id="menu-modal" tabindex="-1" role="dialog" aria-labelledby="menu-modal" aria-hidden="true">
-                <div class="modal-dialog modal-full" role="document">
-                    <div class="wrapper">
-                        <div class="modal-content">
-                            <div class="modal-header modal-header-top">
-                                <div class="header-content d-flex justify-content-between w-100">
-                                    <div class="header-left align-self-center">
-                                        <div class="d-flex align-items-center">
-                                            <div class="header-logo">
-                                                <a class="logo transform-scale-h" title="Logo" href="index.html">
-                                                    <img src="assets/img/logo/logo.svg" alt="Logo">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="header-right d-flex justify-content-end">
-                                        <div class="d-flex align-items-center">
-                                            <div class="menu-close-toggle">
-                                                <button type="button" class="btn btn-link border-0 p-0 min-w-auto" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="modal-body modal-body-centered">
-                                <p>Add a menu</p>
-                            </div>
-                        </div>
-                    </div>
+          </header>
+          <!-- .site-header -->
+        </div>
+      </section>
+      <section id="description" class="block spacer">
+        <div class="spacer m-left-lg p-left-md m-right-xl p-right-xl-2">
+          <div
+            class="d-flex justify-content-evenly spacer p-left-lg p-right-lg p-top-lg p-bottom-lg"
+            style="background-image: url('./assets/img/bg/BackgroundDots1.svg')"
+          >
+            <div
+              class="d-flex flex-column justify-content-center spacer m-top-lg m-bottom-xs-2 p-top-xs-2 p-left-lg p-bottom-lg border-right"
+            >
+              <section class="block">
+                <div class="wrapper spacer p-right-lg-2">
+                  <div class="title">
+                    <h2
+                      class="display-4 text-light spacer p-right-lg-2 m-right-lg-2"
+                    >
+                      We offer you to help your business
+                    </h2>
+                  </div>
                 </div>
-            </div><!-- #menu-modal -->
-        </div><!-- #modals -->
+              </section>
+              <section class="block spacer p-top-lg p-bottom-xl">
+                <div class="wrapper">
+                  <button class="btn btn-link d-flex p-0">
+                    <h5 class="border-bottom spacer m-0 m-right-xs text-light">
+                      Contact us
+                    </h5>
+                    <img src="./assets/img/logo/right-arrow--white.svg" />
+                  </button>
+                </div>
+              </section>
+              <section class="block spacer p-top-lg">
+                <div class="wrapper">
+                  <img
+                    class="spacer p-right-xs"
+                    src="./assets/img/logo/payoneer.svg"
+                  />
+                  <img
+                    class="spacer p-right-xs"
+                    src="./assets/img/logo/klarna.svg"
+                  />
+                  <img
+                    class="spacer p-right-xs"
+                    src="./assets/img/logo/paypal (1).svg"
+                  />
+                  <img
+                    class="spacer p-right-xs"
+                    src="./assets/img/logo/neteller.svg"
+                  />
+                </div>
+              </section>
+            </div>
 
-        <!-- JS -->
-        <script src="assets/js/main.min.js"></script>
-    </body>
+            <div class="d-flex flex-column spacer p-left-sm w-50 text-light-50">
+              <section class="block spacer p-top-lg m-top-sm">
+                <div class="wrapper">
+                  <div class="title">
+                    <h5 class="text-light">Creating brand</h5>
+                  </div>
+                </div>
+              </section>
+              <section class="block spacer p-top-xs">
+                <div class="wrapper">
+                  <p class="after mb-0">
+                    We are digital business consulting agency that helps
+                    companies increase better incomes and help with branding for
+                    faster business growing.
+                  </p>
+                </div>
+              </section>
+              <section class="block spacer p-top-sm">
+                <div class="wrapper">
+                  <div class="title">
+                    <h5 class="text-light">Consulting</h5>
+                  </div>
+                </div>
+              </section>
+              <section class="block spacer p-top-xs">
+                <div class="wrapper">
+                  <p class="after mb-0">
+                    We are digital business consulting agency that helps
+                    companies increase better incomes and help with branding for
+                    faster business growing.
+                  </p>
+                </div>
+              </section>
+              <section class="block spacer p-top-sm">
+                <div class="wrapper">
+                  <div class="title">
+                    <h5 class="text-light">Giving a theory</h5>
+                  </div>
+                </div>
+              </section>
+              <section class="block spacer p-top-xs">
+                <div class="wrapper">
+                  <p class="after mb-0">
+                    We are digital business consulting agency that helps
+                    companies increase better incomes and help with branding for
+                    faster business growing.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="block spacer p-top-xl p-bottom-xl">
+        <div class="spacer m-left-lg p-left-md m-right-xl p-right-xl-2">
+          <div class="d-flex justify-content-evenly">
+            <div class="d-flex">
+              <section class="block position-relative">
+                <img
+                  style="z-index: 1"
+                  class="align-self-start"
+                  src="assets/img/photo/Group.jpg"
+                  alt="Group meeting"
+                />
+                <div
+                  style="
+                    right: 0;
+                    bottom: 0;
+                    z-index: 2;
+                    background-image: url('./assets/img/bg/BackgroundDots2.svg');
+                  "
+                  class="w-50 position-absolute spacer p-left-md p-right-md p-top-md-2 p-bottom-md-2"
+                >
+                  <div class="d-flex align-items-center spacer m-top-xs-2">
+                    <h3
+                      class="display-1 m-0 text-white font-weight-bold spacer p-right-xs-2"
+                    >
+                      10
+                    </h3>
+                    <h3 class="text-white">years of</h3>
+                  </div>
+                  <p class="text-white spacer p-top-xs-2 p-bottom-xs-2">
+                    Business consulting experience around the globe
+                  </p>
+                </div>
+              </section>
+            </div>
+
+            <div class="d-flex spacer p-left-md-2 m-left-xs-2 p-top-xl-2">
+              <section class="block w-75">
+                <section class="block">
+                  <div class="wrapper spacer p-right-lg-2 p-top-md">
+                    <div class="title">
+                      <h2 class="display-4 spacer p-bottom-md-2 m-bottom-xs-2">
+                        Growing your business together
+                      </h2>
+                    </div>
+                  </div>
+                </section>
+                <section class="block">
+                  <div class="wrapper">
+                    <p class="after mb-0 text-black-50">
+                      “For the first few years of business, most companies are
+                      focused on survival. However, prioritizing the growth of
+                      your business is one of the best ways to increase the
+                      chances that your company will not only last but also
+                      contribute to your economic well-being and a stable
+                      financial future.”
+                    </p>
+                  </div>
+                </section>
+                <section class="block spacer p-top-md">
+                  <div class="wrapper d-flex">
+                    <img src="./assets/img/logo/Signature.svg" />
+
+                    <div class="spacer p-left-md">
+                      <h4>Tom Henders</h4>
+                      <p>CEO of Company</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="block spacer p-top-lg">
+                  <div class="wrapper">
+                    <button class="btn btn-link d-flex p-0">
+                      <h5 class="border-bottom spacer m-0 m-right-xs">
+                        Contact us
+                      </h5>
+                      <img src="./assets/img/logo/right-arrow.svg" />
+                    </button>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="block spacer p-top-xl p-bottom-xl">
+        <div class="spacer m-left-lg p-left-md">
+          <div class="d-flex justify-content-evenly">
+            <div
+              class="d-flex flex-column justify-content-between bg-dark text-white spacer p-left-lg p-right-lg p-bottom-md p-top-lg"
+            >
+              <section class="spacer p-top-md-2">
+                <h2
+                  class="text-white display-4 spacer p-bottom-md-2 m-bottom-xs-2"
+                >
+                  Meet our professionals team
+                </h2>
+              </section>
+              <section>
+                <p>
+                  “Since joining Ency, we grown the division into a team that
+                  covers everything.”
+                </p>
+                <section class="block spacer p-top-md p-bottom-md">
+                  <div class="wrapper d-flex">
+                    <img src="./assets/img/logo/Signature--white.svg" />
+
+                    <div class="spacer p-left-md">
+                      <h4>Tom Henders</h4>
+                      <p>CEO of Company</p>
+                    </div>
+                  </div>
+                </section>
+              </section>
+            </div>
+
+            <div class="d-flex flex-column spacer p-left-md">
+              <section class="d-flex spacer p-bottom-md">
+                <div>
+                  <img src="./assets/img/photo/CEO.jpg" />
+                </div>
+                <div class="d-flex flex-column spacer p-left-md">
+                  <h4 class="m-0 spacer p-bottom-sm-2 p-top-md-2">
+                    Tom Henders
+                  </h4>
+                  <h6
+                    class="font-weight-bold w-auto m-0 spacer p-bottom-xs-2 bg-danger p-top-xs-2"
+                  >
+                    CEO
+                  </h6>
+                  <p class="m-0 spacer p-top-sm-2 p-bottom-sm-2">
+                    For the first few years of business, most companies are
+                    focused on survival. However.
+                  </p>
+                  <section class="spacer p-bottom-xs-2">
+                    <div class="links d-flex">
+                      <div class="align-self-center spacer p-right-md-2">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/LI-logo.svg" alt="Logo" />
+                        </a>
+                      </div>
+                      <div class="align-self-center">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/FB-logo.svg" alt="Logo" />
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </section>
+              <section class="d-flex spacer p-bottom-md">
+                <div>
+                  <img src="./assets/img/photo/BC.jpg" />
+                </div>
+                <div class="d-flex flex-column spacer p-left-md">
+                  <h4 class="m-0 spacer p-bottom-sm-2 p-top-md-2">
+                    Rosie Ford
+                  </h4>
+                  <h6
+                    class="font-weight-bold m-0 spacer p-bottom-xs-2 bg-danger p-top-xs-2"
+                  >
+                    Business Consultant
+                  </h6>
+                  <p class="m-0 spacer p-top-sm-2 p-bottom-sm-2">
+                    For the first few years of business, most companies are
+                    focused on survival. However.
+                  </p>
+                  <section class="spacer p-bottom-xs-2">
+                    <div class="links d-flex">
+                      <div class="align-self-center spacer p-right-md-2">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/LI-logo.svg" alt="Logo" />
+                        </a>
+                      </div>
+                      <div class="align-self-center">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/FB-logo.svg" alt="Logo" />
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </section>
+              <section class="d-flex">
+                <div>
+                  <img src="./assets/img/photo/MM.jpg" />
+                </div>
+                <div class="d-flex flex-column spacer p-left-md">
+                  <h4 class="m-0 spacer p-bottom-sm-2 p-top-md-2">
+                    Andrew Hughes
+                  </h4>
+                  <h6
+                    class="font-weight-bold m-0 spacer p-bottom-xs-2 bg-danger p-top-xs-2"
+                  >
+                    Marketing Master
+                  </h6>
+                  <p class="m-0 spacer p-top-sm-2 p-bottom-sm-2">
+                    For the first few years of business, most companies are
+                    focused on survival. However.
+                  </p>
+                  <section class="spacer p-bottom-xs-2">
+                    <div class="links d-flex">
+                      <div class="align-self-center spacer p-right-md-2">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/LI-logo.svg" alt="Logo" />
+                        </a>
+                      </div>
+                      <div class="align-self-center">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/FB-logo.svg" alt="Logo" />
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </section>
+            </div>
+
+            <section id="scroll" class="spacer p-left-lg p-right-xl-2">
+              <div
+                class="d-flex flex-column h-75 justify-content-between align-items-center"
+              >
+                <button class="btn btn-dark btn-link border-0 p-0 min-w-auto">
+                  <a class="scroll-to-id" href="#">
+                    <img
+                      class="padding-md-2"
+                      src="./assets/img/logo/up-arrow.svg"
+                      alt="arrow up icon"
+                    />
+                  </a>
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- .site-main -->
+
+    <footer id="footer" class="site-footer">
+      <div class="spacer m-left-lg p-left-md m-right-xl p-right-xl-2">
+        <div class="footer">
+          <div
+            class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-between"
+          >
+            <div class="align-self-center">
+              <a class="logo transform-scale-h" title="Logo" href="/">
+                <img src="assets/img/logo/ADVEITS.svg" alt="Logo" />
+              </a>
+            </div>
+            <div class="align-self-center">
+              <div class="copyright">
+                <p>
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  HTML Starter Template for Developer By
+                  <a target="_blank" href="https://www.adveits.com">Adveits</a>
+                </p>
+              </div>
+            </div>
+            <div class="links d-flex">
+              <div class="align-self-center spacer p-right-lg-2">
+                <a class="logo transform-scale-h" title="Logo" href="/">
+                  <img src="assets/img/logo/LI-logo.svg" alt="Logo" />
+                </a>
+              </div>
+              <div class="align-self-center">
+                <a class="logo transform-scale-h" title="Logo" href="/">
+                  <img src="assets/img/logo/FB-logo.svg" alt="Logo" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- .site-footer -->
+
+    <div id="modals">
+      <div
+        class="modal fade"
+        id="menu-modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="menu-modal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-full" role="document">
+          <div class="wrapper">
+            <div class="modal-content">
+              <div class="modal-header modal-header-top">
+                <div
+                  class="header-content d-flex justify-content-between w-100"
+                >
+                  <div class="header-left align-self-center">
+                    <div class="d-flex align-items-center">
+                      <div class="header-logo">
+                        <a class="logo transform-scale-h" title="Logo" href="/">
+                          <img src="assets/img/logo/ADVEITS.svg" alt="Logo" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="header-right d-flex justify-content-end">
+                    <div class="d-flex align-items-center">
+                      <div class="menu-close-toggle">
+                        <button
+                          type="button"
+                          class="btn btn-link border-0 p-0 min-w-auto"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-body modal-body-centered">
+                <p>Welcome to the modal!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #modals -->
+
+    <!-- JS -->
+    <script src="assets/js/main.min.js"></script>
+  </body>
 </html>
