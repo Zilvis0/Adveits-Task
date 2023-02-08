@@ -50,3 +50,21 @@
     font-size: 76px !important;
   }
 }
+
+.media-flex-direction {
+  &--column {
+    @media ($media_xxl) {
+      flex-direction: column;
+    }
+  }
+  &--column-reverse {
+    @media ($media_xxl) {
+      flex-direction: column-reverse;
+    }
+  }
+  &--row {
+    @media ($media_xxl) {
+      flex-direction: row !important;
+    }
+  }
+}

@@ -26233,3 +26233,24 @@ body {
         font-size: 76px !important;
     }
 }
+
+@media ((max-width: 1700px)) {
+    .media-flex-direction--column {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media ((max-width: 1700px)) {
+    .media-flex-direction--column-reverse {
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+}
+
+@media ((max-width: 1700px)) {
+    .media-flex-direction--row {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+}
