@@ -26254,3 +26254,27 @@ body {
         flex-direction: row !important;
     }
 }
+
+#main,
+#footer {
+    overflow: hidden;
+}
+
+@media ((max-width: 1700px)) {
+    #main .media-wrapper,
+    #footer .media-wrapper {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+@media ((max-width: 1700px)) {
+    #header {
+        padding: 2.632rem 0 !important;
+    }
+
+    #header .menu-icons img,
+    #header .menu-icons div {
+        padding: 0 !important;
+    }
+}

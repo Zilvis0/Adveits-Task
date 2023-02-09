@@ -68,3 +68,27 @@
     }
   }
 }
+
+#main,
+#footer {
+  overflow: hidden;
+  .media-wrapper {
+    @media ($media_xxl) {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+#header {
+  @media ($media_xxl) {
+    padding: $space_md 0 !important;
+
+    .menu-icons {
+      img,
+      div {
+        padding: 0 !important;
+      }
+    }
+  }
+}
