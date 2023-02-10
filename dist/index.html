@@ -32,8 +32,8 @@
     <!-- .old-browser -->
 
     <div class="loading">
-      <div class="wrapper h-100">
-        <div class="d-flex justify-content-center align-items-center h-50">
+      <div class="wrapper d-flex justify-content-center h-100">
+        <div class="d-flex justify-content-center align-items-center">
           <div class="loading-content">
             <div class="logo logo-primary">
               <img
@@ -81,11 +81,11 @@
 
             <div class="d-flex align-items-end position-relative">
               <img
-                class="bg-custom__dots--z1 bg-custom__dots-1 img-fluid position-absolute"
+                class="z1 bg-custom__dots-1 img-fluid position-absolute"
                 src="./assets/img/bg/DotsByTheGuy.svg"
               />
               <img
-                class="bg-custom__dots--z2 align-self-start"
+                class="z2 media-photo align-self-start"
                 src="assets/img/photo/Guy.jpg"
                 alt="Employee working"
               />
@@ -133,17 +133,17 @@
           class="media-wrapper spacer m-left-lg p-left-md m-right-xl p-right-xl-2"
         >
           <div
-            class="d-flex justify-content-evenly spacer p-left-lg p-right-lg p-top-lg p-bottom-lg media-flex-direction--column"
+            class="d-flex justify-content-evenly spacer padding-lg media-flex-direction--column"
             style="background-image: url('./assets/img/bg/BackgroundDots1.svg')"
           >
             <div
-              class="d-flex flex-column justify-content-center spacer m-top-lg m-bottom-xs-2 p-top-xs-2 p-left-lg p-bottom-lg border-right"
+              class="d-flex flex-column justify-content-between spacer m-top-lg p-bottom-xs-2 p-top-xs-2 p-left-lg m-bottom-xl-2 border-right media--no-border"
             >
               <section class="block">
                 <div class="wrapper spacer p-right-lg-2">
                   <div class="title">
                     <h2
-                      class="display-4 text-light spacer p-right-lg-2 m-right-lg-2"
+                      class="display-4 media-text--center text-light spacer p-right-lg-2 m-right-lg-2"
                     >
                       We offer you to help your business
                     </h2>
@@ -182,7 +182,9 @@
               </section>
             </div>
 
-            <div class="d-flex flex-column spacer p-left-sm w-50 text-light-50">
+            <div
+              class="d-flex flex-column spacer p-bottom-lg m-bottom-md-2 p-left-sm w-50 text-light-50 media-width-100"
+            >
               <section class="block spacer p-top-lg m-top-sm">
                 <div class="wrapper">
                   <div class="title">
@@ -243,9 +245,9 @@
             class="d-flex justify-content-evenly media-flex-direction--column"
           >
             <div class="d-flex">
-              <section class="block position-relative">
+              <section class="block media-mb-auto position-relative">
                 <img
-                  class="bg-custom__dots--z1 align-self-start"
+                  class="z1 media-photo align-self-start"
                   src="assets/img/photo/Group.jpg"
                   alt="Group meeting"
                 />
@@ -253,7 +255,7 @@
                   style="
                     background-image: url('./assets/img/bg/BackgroundDots2.svg');
                   "
-                  class="bg-custom__dots--z2 bg-custom__dots-2 w-50 position-absolute spacer p-left-md p-right-md p-top-md-2 p-bottom-md-2"
+                  class="z2 bg-custom__dots-2 w-50 position-absolute spacer p-left-md p-right-md p-top-md-2 p-bottom-md-2"
                 >
                   <div class="d-flex align-items-center spacer m-top-xs-2">
                     <h3
@@ -271,11 +273,13 @@
             </div>
 
             <div class="d-flex spacer p-left-md-2 m-left-xs-2 p-top-xl-2">
-              <section class="block w-75">
+              <section class="block spacer p-right-md m-right-lg-2">
                 <section class="block">
                   <div class="wrapper spacer p-right-lg-2 p-top-md">
                     <div class="title">
-                      <h2 class="display-4 spacer p-bottom-md-2 m-bottom-xs-2">
+                      <h2
+                        class="display-4 font-weight-bold spacer p-bottom-md-2 m-bottom-xs-2"
+                      >
                         Growing your business together
                       </h2>
                     </div>
@@ -283,7 +287,9 @@
                 </section>
                 <section class="block">
                   <div class="wrapper">
-                    <p class="after mb-0 text-black-50">
+                    <p
+                      class="after mb-0 spacer p-right-md m-right-sm-2 text-black-50"
+                    >
                       “For the first few years of business, most companies are
                       focused on survival. However, prioritizing the growth of
                       your business is one of the best ways to increase the
@@ -321,7 +327,7 @@
       <section id="team" class="block spacer p-top-xl p-bottom-xl">
         <div class="media-wrapper spacer m-left-lg p-left-md">
           <div
-            class="d-flex justify-content-evenly media-flex-direction--column"
+            class="d-flex justify-content-evenly media-flex-direction--column media-align--default"
           >
             <section
               class="d-flex flex-column justify-content-between bg-dark text-white spacer p-left-lg p-right-lg p-bottom-md p-top-lg m-bottom-xl-2"
@@ -352,11 +358,13 @@
             </section>
 
             <section class="d-flex flex-column spacer p-left-md m-bottom-xl-2">
-              <section class="d-flex spacer p-bottom-md">
+              <section
+                class="d-flex media-flex-direction--column media-align--default spacer p-bottom-md"
+              >
                 <div>
                   <img src="./assets/img/photo/CEO.jpg" />
                 </div>
-                <div class="d-flex flex-column spacer p-left-md">
+                <div class="media-p-0 d-flex flex-column spacer p-left-md">
                   <h4 class="m-0 spacer p-bottom-sm-2 p-top-md-2">
                     Tom Henders
                   </h4>
@@ -385,11 +393,13 @@
                   </section>
                 </div>
               </section>
-              <section class="d-flex spacer p-bottom-md">
+              <section
+                class="d-flex media-flex-direction--column media-align--default spacer p-bottom-md"
+              >
                 <div>
                   <img src="./assets/img/photo/BC.jpg" />
                 </div>
-                <div class="d-flex flex-column spacer p-left-md">
+                <div class="d-flex flex-column spacer p-left-md media-p-0">
                   <h4 class="m-0 spacer p-bottom-sm-2 p-top-md-2">
                     Rosie Ford
                   </h4>
@@ -418,11 +428,13 @@
                   </section>
                 </div>
               </section>
-              <section class="d-flex">
+              <section
+                class="d-flex media-flex-direction--column media-align--default"
+              >
                 <div>
                   <img src="./assets/img/photo/MM.jpg" />
                 </div>
-                <div class="d-flex flex-column spacer p-left-md">
+                <div class="d-flex flex-column spacer p-left-md media-p-0">
                   <h4 class="m-0 spacer p-bottom-sm-2 p-top-md-2">
                     Andrew Hughes
                   </h4>
@@ -455,7 +467,7 @@
 
             <section
               id="scroll"
-              class="d-flex flex-column justify-content-end spacer p-left-lg p-right-xl-2"
+              class="d-flex flex-column justify-content-end spacer p-left-lg p-right-xl-2 media-align--default"
             >
               <button class="btn btn-dark btn-link border-0 p-0 min-w-auto">
                 <a class="scroll-to-id" href="#">
@@ -498,7 +510,7 @@
                 </p>
               </div>
             </div>
-            <div class="links d-flex">
+            <div class="links d-flex justify-content-center">
               <div class="align-self-center spacer p-right-lg-2">
                 <a class="logo transform-scale-h" title="Logo" href="/">
                   <img src="assets/img/logo/LI-logo.svg" alt="Logo" />
